@@ -5,6 +5,10 @@ This repository contains teaching notes for a UCSF data science initiative works
 ### Dictionaries.ipynb
 How to create and use a dictionary in Python.  How to nest arrays and dictionaries in a dictionary, a common pattern in a JSON response.  
 
+### UCSFProfilesJSON.ipynb
+
+How to request data from an api endpoint.  How to include request parameters in a URL.  How to read and parse JSON reponse as a python dictionary. Example code uses the json api for the the UCSF profiles web service, available through the UCSF Clinical and Translational Sciences Institute (CTSI).  
+
 ### APIRequest.ipynb
 
 Using a spell checking web service from the National Library of Medicine, how to request data from an api endpoint.  How to include request parameters in a URL.  How to read and parse JSON reponse as a python dictionary.  
