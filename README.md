@@ -28,3 +28,7 @@ Use the bottle module to create a simple web sevice that returns JSON.  Read and
 ### InteractionService.py
 
 Build on the simple service to provide a new api endpoint that provides a summary of drug interaction data from the NLM interactions api.  
+
+### Recursion.ipynb
+
+Since dictionaries and JSON can contain tree like structures, it can be useful to understand how to use recursion to traverse, print, and search trees. This notebook contains a basic recursion example followed by an example using recursion to print all keys in a JSON document.  
