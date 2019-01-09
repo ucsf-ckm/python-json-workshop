@@ -10,12 +10,6 @@ This tutorial is an introduction to reading, processing, and parsing with JSON d
 
 JSON is a commonly used data format, consisting of key-value pairs stored in a nested tree structure. Because many web services return data in JSON format, data scientists and engineers frequently need to read, process, and parse JSON data using Python.
 
-### Prerequisites
-
-This tutorial is intended for participants who have basic programming experience with Python, including loops, conditionals, and lists. No previous experience with JSON is expected. Some familiarity with tree structures and recursion will help, but we will cover these concepts in the context of parsing JSON documents.  
-
-The first part reviews the dictionary data structure, connecting to a URL for a web service, and parsing JSON.  The second part reviews creating a web service using the bottle module.  
-
 This tutorial will consist of a series of notebooks and tutorial exercises. Rather than discussing the JSON format in the abstract, participants will learn the structure of JSON documents by working directly with web APIs with Python. Through these exercises, participants will use the JSON API from the National Library of Medicine to:
 
 1. Retrieve and view a JSON document from an API through a browser, using the National Library of Medicine's web service.
@@ -27,6 +21,16 @@ This tutorial will consist of a series of notebooks and tutorial exercises. Rath
 4. Investigate how to use conditionals and loops to parse JSON documents to extract specific key-value pairs. 
 
 5. Learn how to use recursion to take advantage of the tree like structure of a JSON document. Exercises will include basic recursion concepts, followed by the use of recursion to extract all values corresponding to a particular key. 
+
+### Prerequisites
+
+This tutorial is intended for participants who have basic programming experience with Python, including loops, conditionals, and lists. No previous experience with JSON is expected. Some familiarity with tree structures and recursion will help, but we will cover these concepts in the context of parsing JSON documents.  
+
+The first part reviews the dictionary data structure, connecting to a URL for a web service, and parsing JSON.  The second part reviews creating a web service using the bottle module.  
+
+## Workbooks
+
+This tutorial consists of a series of notebooks. Further explanatory text is available in the notebook for each section or the tutorial. 
 
 ### Dictionaries.ipynb
 How to create and use a dictionary in Python.  How to nest arrays and dictionaries in a dictionary, a common pattern in a JSON response.  
