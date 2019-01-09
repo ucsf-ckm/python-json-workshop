@@ -22,6 +22,8 @@ This tutorial will consist of a series of notebooks and tutorial exercises. Rath
 
 5. Learn how to use recursion to take advantage of the tree like structure of a JSON document. Exercises will include basic recursion concepts, followed by the use of recursion to extract all values corresponding to a particular key. 
 
+6. (Optional). If time permits, participants will write a simple JSON web service and make the results available through a localhost endpoint using the Bottle framework. 
+
 ### Prerequisites
 
 This tutorial is intended for participants who have basic programming experience with Python, including loops, conditionals, and lists. No previous experience with JSON is expected. Some familiarity with tree structures and recursion will help, but we will cover these concepts in the context of parsing JSON documents.  
@@ -33,11 +35,7 @@ The first part reviews the dictionary data structure, connecting to a URL for a 
 This tutorial consists of a series of notebooks. Further explanatory text is available in the notebook for each section or the tutorial. 
 
 ### Dictionaries.ipynb
-How to create and use a dictionary in Python.  How to nest arrays and dictionaries in a dictionary, a common pattern in a JSON response.  
-
-### UCSFProfilesJSON.ipynb
-
-How to request data from an api endpoint.  How to include request parameters in a URL.  How to read and parse JSON reponse as a python dictionary. Example code uses the json api for the the UCSF profiles web service, available through the UCSF Clinical and Translational Sciences Institute (CTSI).  
+How to create and use a dictionary in Python.  How to nest arrays and dictionaries in a dictionary, a common pattern in a JSON response.   
 
 ### APIRequest.ipynb
 
@@ -51,6 +49,10 @@ Investigate a more elaborate JSON response by querying a National Library of Med
 
 Using the interaction api, how to parse and select data from an api.
 
+### Recursion.ipynb
+
+Since dictionaries and JSON can contain tree like structures, it can be useful to understand how to use recursion to traverse, print, and search trees. This notebook contains a basic recursion example followed by an example using recursion to print all keys in a JSON document.  
+
 ### SimpleService.py
 
 Use the bottle module to create a simple web sevice that returns JSON.  Read and parse your web service.
@@ -59,6 +61,4 @@ Use the bottle module to create a simple web sevice that returns JSON.  Read and
 
 Build on the simple service to provide a new api endpoint that provides a summary of drug interaction data from the NLM interactions api.  
 
-### Recursion.ipynb
 
-Since dictionaries and JSON can contain tree like structures, it can be useful to understand how to use recursion to traverse, print, and search trees. This notebook contains a basic recursion example followed by an example using recursion to print all keys in a JSON document.  
