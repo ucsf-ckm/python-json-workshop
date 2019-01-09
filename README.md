@@ -28,13 +28,12 @@ This tutorial will consist of a series of notebooks and tutorial exercises. Rath
 
 This tutorial is intended for participants who have basic programming experience with Python, including loops, conditionals, and lists. No previous experience with JSON is expected. Some familiarity with tree structures and recursion will help, but we will cover these concepts in the context of parsing JSON documents.  
 
-The first part reviews the dictionary data structure, connecting to a URL for a web service, and parsing JSON.  The second part reviews creating a web service using the bottle module.  
-
 ## Workbooks
 
 This tutorial consists of a series of notebooks. Further explanatory text is available in the notebook for each section or the tutorial. 
 
 ### Dictionaries.ipynb
+
 How to create and use a dictionary in Python.  How to nest arrays and dictionaries in a dictionary, a common pattern in a JSON response.   
 
 ### APIRequest.ipynb
