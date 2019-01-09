@@ -12,7 +12,7 @@ JSON is a commonly used data format, consisting of key-value pairs stored in a n
 
 This tutorial will consist of a series of notebooks and tutorial exercises. Rather than discussing the JSON format in the abstract, participants will learn the structure of JSON documents by working directly with web APIs with Python. Through these exercises, participants will use the JSON API from the National Library of Medicine to:
 
-1. Retrieve and view a JSON document from an API through a browser, using the National Library of Medicine's web service.
+1. Retrieve and view a JSON document from an API through a browser, using the service endpoint URL.
 
 2. Review the concept of a dictionary in Python, and explore how a JSON tree can be represented as a dictionary in Python.
 
